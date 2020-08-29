@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dlWqScVB/6YCcAY4s76fHCKqMV0CXWP6pchYG3T3032KQ5GRJDoq/0rzaIySlYndq7JKWyWJK5ecCZHL4xaOdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\parshantkumar\\source\\repos\\MicroserviceAssignment\\OrderService\\OrderService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\parshantkumar\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
