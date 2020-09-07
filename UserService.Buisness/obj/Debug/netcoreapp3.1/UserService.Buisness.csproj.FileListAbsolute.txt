@@ -1,0 +1,12 @@
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\bin\Debug\netcoreapp3.1\UserService.Buisness.deps.json
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\bin\Debug\netcoreapp3.1\UserService.Buisness.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\bin\Debug\netcoreapp3.1\UserService.Buisness.pdb
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\bin\Debug\netcoreapp3.1\UserService.Shared.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\bin\Debug\netcoreapp3.1\UserService.Shared.pdb
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\obj\Debug\netcoreapp3.1\UserService.Buisness.csprojAssemblyReference.cache
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\obj\Debug\netcoreapp3.1\UserService.Buisness.AssemblyInfoInputs.cache
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\obj\Debug\netcoreapp3.1\UserService.Buisness.AssemblyInfo.cs
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\obj\Debug\netcoreapp3.1\UserService.Buisness.csproj.CoreCompileInputs.cache
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\obj\Debug\netcoreapp3.1\UserService.Buisness.csproj.CopyComplete
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\obj\Debug\netcoreapp3.1\UserService.Buisness.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Buisness\obj\Debug\netcoreapp3.1\UserService.Buisness.pdb

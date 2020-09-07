@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: aggregator-service
+ labels:
+  app: aggregatorservice
+spec:
+ replicas: 1
+ selector:
+  matchLabels:
+   app: aggregatorservice
+ template:
+  metadata:
+   labels:
+    app: aggregatorservice
+  spec:
+   containers:
+    - name: aggregatorservice-container
+      image: parshantkumar/aggregatorservice:v1
+      ports:
+       - containerPort: 7002

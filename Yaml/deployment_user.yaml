@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: user-service
+ labels:
+  app: userservice
+spec:
+ replicas: 1
+ selector:
+  matchLabels:
+   app: userservice
+ template:
+  metadata:
+   labels:
+    app: userservice
+  spec:
+   containers:
+    - name: userservice-container
+      image: parshantkumar/userservice:v1
+      ports:
+       - containerPort: 7001

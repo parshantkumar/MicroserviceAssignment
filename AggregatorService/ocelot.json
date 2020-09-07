@@ -2,8 +2,8 @@
   "Aggregates": [
     {
       "RouteKeys": [
-        "User",
-        "Order"
+        "Users",
+        "Orders"
       ],
       "UpstreamPathTemplate": "/GetOrders/{id}"
     }
@@ -18,13 +18,13 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "order-service",
+          "Host": "localhost",
           "Port": "7000"
         }
       ],
-      "UpstreamPathTemplate": "/order",
+      "UpstreamPathTemplate": "/orders",
       "UpstreamHttpMethod": [ "Get" ],
-      "Key": "Order",
+      "Key": "Orders",
       "HttpHandlerOptions": {
         "AllowAutoRedirect": true
       }
@@ -32,16 +32,16 @@
     {
       "DownstreamHostAndPorts": [
         {
-          "Host": "user-service",
+          "Host": "localhost",
           "Port": "7001"
         }
       ],
-      "DownstreamPathTemplate": "/api/user/GetUserbyid?id={id}",
+      "DownstreamPathTemplate": "/api/user/GetUserById?id={id}",
       "DownstreamScheme": "http",
       "HttpHandlerOptions": {
         "AllowAutoRedirect": true
       },
-      "Key": "User",
+      "Key": "Users",
       "UpstreamHttpMethod": [ "Get", "Post" ],
       "UpstreamPathTemplate": "/users/{id}"
     }

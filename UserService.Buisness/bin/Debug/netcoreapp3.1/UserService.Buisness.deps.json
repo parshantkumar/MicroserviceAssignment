@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UserService.Buisness/1.0.0": {
+        "dependencies": {
+          "UserService.Shared": "1.0.0"
+        },
+        "runtime": {
+          "UserService.Buisness.dll": {}
+        }
+      },
+      "UserService.Shared/1.0.0": {
+        "runtime": {
+          "UserService.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserService.Buisness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserService.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

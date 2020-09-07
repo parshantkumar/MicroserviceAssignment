@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using UserService.Models;
+using UserService.Shared.Interface;
+using UserService.Shared.Model;
 
 namespace UserService.Controllers
 {
@@ -12,36 +14,43 @@ namespace UserService.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+
+        private readonly IUserManager UserManager;
+        public UserController(IUserManager userManager)
+        {
+            this.UserManager = userManager;
+        }
         [HttpGet, Route("GetUsers")]
 
-        public async Task<List<User>> GetUsers()
+        public IEnumerable<User> GetUsers()
+        
         {
-            //return await UserManager.Instance.GetUsers();
+            return  UserManager.GetUsers();
 
-            return await Task.Run(() =>
-            {
-                List<User> users = new List<User>();
-                users.Add(new User() { Id = 1, Name = "Admin1", Age = 30, Email = "admin1@c.com" });
-                users.Add(new User() { Id = 2, Name = "User1", Age = 40, Email = "user1@c.com" });
-                users.Add(new User() { Id = 3, Name = "User2", Age = 50, Email = "user2@c.com" });
-                users.Add(new User() { Id = 4, Name = "User3", Age = 60, Email = "user3@c.com" });
-                return users;
+            //return await Task.Run(() =>
+            //{
+            //    List<User> users = new List<User>();
+            //    users.Add(new User() { Id = 1, Name = "Admin1", Age = 30, Email = "admin1@c.com" });
+            //    users.Add(new User() { Id = 2, Name = "User1", Age = 40, Email = "user1@c.com" });
+            //    users.Add(new User() { Id = 3, Name = "User2", Age = 50, Email = "user2@c.com" });
+            //    users.Add(new User() { Id = 4, Name = "User3", Age = 60, Email = "user3@c.com" });
+            //    return users;
 
-            });
+            //});
         }
 
-        //[HttpGet, Route("GetUserById")]
+        [HttpGet, Route("GetUserById")]
+        //[HttpGet("{id}", Name = "Get")]
+        public User GetUserById(int id)
+        {
+            return UserManager.GetUserById(id);
+        }
 
-        //public async Task<Domain.Models.User> GetUserById(int id)
-        //{
-        //    return await UserManager.Instance.GetUserById(id);
-        //}
+        [HttpPost, Route("AddUser")]
 
-        //[HttpPost, Route("AddUser")]
-
-        //public async Task<int> AddUser(Domain.Models.User user)
-        //{
-        //    return await UserManager.Instance.AddUser(user);
-        //}
+        public bool AddUser(User user)
+        {
+            return UserManager.InsertUser(user);
+        }
     }
 }

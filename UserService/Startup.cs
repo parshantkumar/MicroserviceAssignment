@@ -10,6 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using UserService.Data;
+using UserService.Shared.Interface;
+using UserService.Buisness;
+using Microsoft.EntityFrameworkCore;
 
 namespace UserService
 {
@@ -26,16 +30,25 @@ namespace UserService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddDbContext<UserDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("UserDBConnection")));
+ 
+            services.AddScoped<IUserManager, UserManager>();
+            services.AddScoped<IUserDal, UserDal>();
+
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserDbContext userDbContext)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
+            userDbContext.Database.EnsureCreated();
             app.UseHttpsRedirection();
 
             app.UseRouting();
