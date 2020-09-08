@@ -17,3 +17,4 @@ C:\Users\parshantkumar\source\repos\MicroserviceAssignment\OrderService\obj\Debu
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\OrderService\obj\Debug\netcoreapp3.1\OrderService.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\OrderService\obj\Debug\netcoreapp3.1\OrderService.pdb
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\OrderService\obj\Debug\netcoreapp3.1\OrderService.genruntimeconfig.cache
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\OrderService\obj\Debug\netcoreapp3.1\OrderService.csprojAssemblyReference.cache
