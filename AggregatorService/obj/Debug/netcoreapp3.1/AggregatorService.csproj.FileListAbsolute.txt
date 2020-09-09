@@ -8,7 +8,11 @@ C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\AggregatorService.runtimeconfig.dev.json
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\AggregatorService.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\AggregatorService.pdb
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\Thrift.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\Jaeger.Communication.Thrift.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\Jaeger.Core.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\Jaeger.Senders.Thrift.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.MiddlewareAnalysis.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
@@ -17,6 +21,17 @@ C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\Ocelot.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\OpenTracing.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\OpenTracing.Contrib.NetCore.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\obj\Debug\netcoreapp3.1\AggregatorService.csprojAssemblyReference.cache
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\obj\Debug\netcoreapp3.1\AggregatorService.AssemblyInfoInputs.cache
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\obj\Debug\netcoreapp3.1\AggregatorService.AssemblyInfo.cs
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\obj\Debug\netcoreapp3.1\AggregatorService.csproj.CoreCompileInputs.cache
@@ -29,4 +44,3 @@ C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\obj
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\obj\Debug\netcoreapp3.1\AggregatorService.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\obj\Debug\netcoreapp3.1\AggregatorService.pdb
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\obj\Debug\netcoreapp3.1\AggregatorService.genruntimeconfig.cache
-C:\Users\parshantkumar\source\repos\MicroserviceAssignment\AggregatorService\obj\Debug\netcoreapp3.1\AggregatorService.csprojAssemblyReference.cache

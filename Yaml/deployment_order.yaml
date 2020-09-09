@@ -16,6 +16,6 @@ spec:
   spec:
    containers:
     - name: orderservice-container
-      image: parshantkumar/orderservice:v1
+      image: parshantkumar/orderservice:v2
       ports:
        - containerPort: 7000

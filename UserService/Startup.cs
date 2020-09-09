@@ -14,6 +14,13 @@ using UserService.Data;
 using UserService.Shared.Interface;
 using UserService.Buisness;
 using Microsoft.EntityFrameworkCore;
+using OpenTracing;
+using System.Reflection;
+using Jaeger.Samplers;
+using OpenTracing.Util;
+using Jaeger.Senders.Thrift;
+using Jaeger;
+using Jaeger.Reporters;
 
 namespace UserService
 {
@@ -35,6 +42,26 @@ namespace UserService
  
             services.AddScoped<IUserManager, UserManager>();
             services.AddScoped<IUserDal, UserDal>();
+
+            services.AddSingleton<ITracer>(serviceProvider =>
+            {
+                string serviceName = Assembly.GetEntryAssembly().GetName().Name;
+
+                ILoggerFactory loggerFactory = serviceProvider.GetRequiredService<ILoggerFactory>();
+
+                ISampler sampler = new ConstSampler(sample: true);
+                var reporter = new RemoteReporter.Builder().WithLoggerFactory(loggerFactory)
+                .WithSender(new UdpSender("jaeger-agent", 6831, 0)).Build();
+
+                ITracer tracer = new Tracer.Builder(serviceName).WithLoggerFactory(loggerFactory).
+                WithSampler(sampler).WithReporter(reporter).Build();
+
+                GlobalTracer.Register(tracer);
+
+                return tracer;
+            });
+
+            services.AddOpenTracing();
 
 
 

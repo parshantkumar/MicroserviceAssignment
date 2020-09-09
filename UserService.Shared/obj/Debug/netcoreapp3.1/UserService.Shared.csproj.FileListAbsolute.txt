@@ -6,4 +6,3 @@ C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\ob
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.csproj.CoreCompileInputs.cache
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.pdb
-C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.csprojAssemblyReference.cache

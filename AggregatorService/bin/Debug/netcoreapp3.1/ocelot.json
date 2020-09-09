@@ -18,7 +18,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "order-service",
           "Port": "7000"
         }
       ],
@@ -32,7 +32,7 @@
     {
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "user-service",
           "Port": "7001"
         }
       ],

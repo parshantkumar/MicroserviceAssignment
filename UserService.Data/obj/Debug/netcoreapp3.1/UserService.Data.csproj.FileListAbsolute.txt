@@ -6,7 +6,7 @@ C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Data\bin\
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Data\obj\Debug\netcoreapp3.1\UserService.Data.csprojAssemblyReference.cache
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Data\obj\Debug\netcoreapp3.1\UserService.Data.AssemblyInfoInputs.cache
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Data\obj\Debug\netcoreapp3.1\UserService.Data.AssemblyInfo.cs
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Data\obj\Debug\netcoreapp3.1\UserService.Data.csproj.CoreCompileInputs.cache
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Data\obj\Debug\netcoreapp3.1\UserService.Data.csproj.CopyComplete
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Data\obj\Debug\netcoreapp3.1\UserService.Data.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Data\obj\Debug\netcoreapp3.1\UserService.Data.pdb
-C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Data\obj\Debug\netcoreapp3.1\UserService.Data.csproj.CoreCompileInputs.cache

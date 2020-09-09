@@ -41,9 +41,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Jaeger": {
+              "target": "Package",
+              "version": "[0.4.1, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
+            },
+            "OpenTracing.Contrib.NetCore": {
+              "target": "Package",
+              "version": "[0.6.2, )"
             }
           },
           "imports": [
