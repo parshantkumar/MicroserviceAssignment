@@ -16,6 +16,6 @@ spec:
   spec:
    containers:
     - name: aggregatorservice-container
-      image: parshantkumar/aggregatorservice:v1
+      image: parshantkumar/aggregatorservice:v2
       ports:
        - containerPort: 7002

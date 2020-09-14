@@ -1,9 +1,9 @@
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\bin\Debug\netcoreapp3.1\UserService.Shared.deps.json
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\bin\Debug\netcoreapp3.1\UserService.Shared.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\bin\Debug\netcoreapp3.1\UserService.Shared.pdb
+C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.csprojAssemblyReference.cache
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.AssemblyInfoInputs.cache
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.AssemblyInfo.cs
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.csproj.CoreCompileInputs.cache
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.dll
 C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.pdb
-C:\Users\parshantkumar\source\repos\MicroserviceAssignment\UserService.Shared\obj\Debug\netcoreapp3.1\UserService.Shared.csprojAssemblyReference.cache
